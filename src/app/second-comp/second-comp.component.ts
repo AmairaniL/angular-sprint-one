@@ -19,6 +19,7 @@ export class SecondCompComponent implements OnInit {
   messageTwo = 'This is the displayed message.';
 
   onFirstClick() {
+    console.log("Button is Clicked now");
     this.messageOne = 'Button is Clicked now';
     this.messageOne = this.messageTwo;
     return this.messageOne;
